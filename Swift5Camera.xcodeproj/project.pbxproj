@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF70934A2196E8D000EBEB6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7093492196E8D000EBEB6F /* AppDelegate.swift */; };
-		FF70934C2196E8D000EBEB6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70934B2196E8D000EBEB6F /* ViewController.swift */; };
+		FF70934C2196E8D000EBEB6F /* editedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70934B2196E8D000EBEB6F /* editedImage.swift */; };
 		FF70934F2196E8D000EBEB6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF70934D2196E8D000EBEB6F /* Main.storyboard */; };
 		FF7093512196E8D100EBEB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7093502196E8D100EBEB6F /* Assets.xcassets */; };
 		FF7093542196E8D100EBEB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7093522196E8D100EBEB6F /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		FF7093462196E8D000EBEB6F /* Swift5Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7093492196E8D000EBEB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF70934B2196E8D000EBEB6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF70934B2196E8D000EBEB6F /* editedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editedImage.swift; sourceTree = "<group>"; };
 		FF70934E2196E8D000EBEB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF7093502196E8D100EBEB6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7093532196E8D100EBEB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				FF7093492196E8D000EBEB6F /* AppDelegate.swift */,
-				FF70934B2196E8D000EBEB6F /* ViewController.swift */,
+				FF70934B2196E8D000EBEB6F /* editedImage.swift */,
 				FF70934D2196E8D000EBEB6F /* Main.storyboard */,
 				FF7093502196E8D100EBEB6F /* Assets.xcassets */,
 				FF7093522196E8D100EBEB6F /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF70934C2196E8D000EBEB6F /* ViewController.swift in Sources */,
+				FF70934C2196E8D000EBEB6F /* editedImage.swift in Sources */,
 				FF70934A2196E8D000EBEB6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MW7724T87;
 				INFOPLIST_FILE = Swift5Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MW7724T87;
 				INFOPLIST_FILE = Swift5Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
